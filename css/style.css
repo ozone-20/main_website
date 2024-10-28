@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  /* background: #ff6a00; */
+  background: #2e2e2e;
+  align-items: center;
+  padding: 5px 150px;
+}
+.element a {
+  padding: 8px 15px;
+  color: #fafafa;
+  text-decoration: none;
+  border-radius: 15px;
+  transition: 0.5s;
+  
+}
+.element a:hover {
+  /* background: #ff7f00; */
+  background: #525252;
+}
+.search-bar {
+  display: flex;
+}
+.nav {
+  color: #fafafa;
+}
+.lable {
+  margin-right: 20px;
+}
+.nav .button button {
+  border-radius: 15px;
+  padding: 8px 12px;
+  background: #525252;
+  color: #fafafa;
+  border-color: #fafafa;
+  transition: 0.5s;
+
+}
+.nav .button button:hover {
+  background: #6b6b6b;
+  /* background: #ff7f00; */
+}
+.search-bar .search-input input {
+  border-radius: 15px;
+  outline:none;
+  height: 25px;
+}
+.start .container{
+margin: 0px;
+display: flex;
+align-items: center;
+    padding:30px 150px ;
+/* background: #cfcfcf; */
+}
+.start .container .image img{
+    height: 500px;
+    width: 500px;
+    border-radius: 25px;
+}
+
+.start .container .text{
+/* background: #555555; */
+padding: 0 50px;
+/* margin-right: 2px; */
+}
+.text .buttons {
+    display: flex;
+/* background: #390d0d; */
+}
+.text .buttons .b2{
+   margin-left: 15px;
+  
+
+}
+.text .buttons .b2 button{
+    margin: 10px;
+    padding: 15px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+.text .buttons .b1 button{
+    margin: 10px;
+    padding: 15px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    box-shadow: 0px 0px 14px -7px #f09819;
+    background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+.text .buttons .but button{
+    border-radius: 12px;
+    padding: 15px 30px;
+    border-color: #fafafa;
+    font-size: 16px;
+    touch-action: manipulation;
+    cursor: pointer;
+
+}
+.text .buttons .b1 button:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .text .buttons .b1 button:active {
+    transform: scale(0.95);
+  }
+.text .buttons .b2 button:hover {
+    background-position: right center;
+    /* color: #494949; */
+    text-decoration: none;
+    background: #bbbbbb;
+  }
+  
+  .text .buttons .b2 button:active {
+    transform: scale(0.95);
+  }
+  
+.main p{
+    margin: 40px 0;
+}
+.main h1{
+    width:380px;
+}
+
+
+
