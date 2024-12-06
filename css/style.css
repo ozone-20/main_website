@@ -3,7 +3,8 @@ body {
   font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
 }
-.header{
+
+.header {
   position: sticky;
   position: sticky;
   top: 0;
@@ -12,6 +13,7 @@ body {
   color: #f1f1f1;
   z-index: 100;
 }
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -22,6 +24,7 @@ body {
   border-radius: 15px;
 
 }
+
 .element a {
   padding: 8px 15px;
   color: #fafafa;
@@ -29,19 +32,24 @@ body {
   border-radius: 15px;
   transition: 0.5s;
 }
-.element a:hover {
+
+a:hover {
   /* background: #ff7f00; */
   background: #525252;
 }
+
 .search-bar {
   display: flex;
 }
+
 .nav {
   color: #fafafa;
 }
+
 .lable {
   margin-right: 20px;
 }
+
 .nav .button button {
   border-radius: 15px;
   padding: 8px 12px;
@@ -51,15 +59,18 @@ body {
   transition: 0.5s;
   cursor: pointer;
 }
+
 .nav .button button:hover {
   background: #6b6b6b;
   /* background: #ff7f00; */
 }
+
 .search-bar .search-input input {
   border-radius: 15px;
   outline: none;
   height: 25px;
 }
+
 .start .container {
   margin: 0px;
   display: flex;
@@ -67,6 +78,7 @@ body {
   padding: 30px 150px;
   /* background: #cfcfcf; */
 }
+
 .start .container .image img {
   height: 500px;
   width: 500px;
@@ -78,13 +90,16 @@ body {
   padding: 0 50px;
   /* margin-right: 2px; */
 }
+
 .text .buttons {
   display: flex;
   /* background: #390d0d; */
 }
+
 .text .buttons .b2 {
   margin-left: 15px;
 }
+
 .text .buttons .b2 button {
   margin: 10px;
   padding: 15px 30px;
@@ -102,6 +117,7 @@ body {
   -webkit-user-select: none;
   touch-action: manipulation;
 }
+
 .text .buttons .b1 button {
   margin: 10px;
   padding: 15px 30px;
@@ -115,17 +131,16 @@ body {
   border: 0px;
   font-weight: 700;
   box-shadow: 0px 0px 14px -7px #f09819;
-  background-image: linear-gradient(
-    45deg,
-    #ff512f 0%,
-    #f09819 51%,
-    #ff512f 100%
-  );
+  background-image: linear-gradient(45deg,
+      #ff512f 0%,
+      #f09819 51%,
+      #ff512f 100%);
   cursor: pointer;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
 }
+
 .text .buttons .but button {
   border-radius: 12px;
   padding: 15px 30px;
@@ -134,6 +149,7 @@ body {
   touch-action: manipulation;
   cursor: pointer;
 }
+
 .text .buttons .b1 button:hover {
   background-position: right center;
   color: #fff;
@@ -143,6 +159,7 @@ body {
 .text .buttons .b1 button:active {
   transform: scale(0.95);
 }
+
 .text .buttons .b2 button:hover {
   background-position: right center;
 
@@ -157,6 +174,7 @@ body {
 .main p {
   margin: 40px 0;
 }
+
 .main h1 {
   width: 380px;
 }
@@ -172,23 +190,28 @@ body {
 .main_card {
   display: flex;
 }
+
 .fcard .card {
   background: #13840d;
   height: 220px;
   margin-top: 10px;
 }
+
 .scard .card {
   background: #13840d;
   height: 220px;
   margin-top: 10px;
 }
+
 .fcard {
   width: 220px;
   margin-right: 20px;
 }
+
 .scard {
   width: 220px;
 }
+
 .main_card .card {
   padding: 0 20px;
   padding-top: 20px;
@@ -197,16 +220,20 @@ body {
   background: #e6a52ed7;
   transition: 0.6s;
 }
+
 .main_card .card:hover {
   background: #a46b00;
 }
+
 .sec .icon {
   color: #171717;
 }
+
 .sec .text {
   width: 450px;
   padding-left: 40px;
 }
+
 .sec .text h1 {
   font-size: 50px;
 }
@@ -247,6 +274,7 @@ body {
   z-index: 0;
   transition: 0.5s;
 }
+
 .sec .text .but button:hover {
   background: #f6f9fe;
   color: #ca8300;
@@ -293,45 +321,53 @@ body {
 /* ////////////////////////////////////////////////////////////////////////// */
 
 /* con4 */
-.con4{
+.con4 {
   display: flex;
   justify-content: space-between;
   padding: 100px 150px;
 }
-.con4 .image img{
+
+.con4 .image img {
   height: 320px;
   width: 450px;
   border-radius: 25px;
 
 }
-.con4 .image{
+
+.con4 .image {
   z-index: 2;
 
 }
-.con4 .text .cards{
+
+.con4 .text .cards {
   /* background: #975252; */
   display: flex;
 }
-.con4 .text .cards .card{
+
+.con4 .text .cards .card {
   /* background: #533737; */
   margin-right: 10px;
   padding: 20px 15px;
   border-radius: 15px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .con4 .text {
   /* background: #c3c60b; */
   align-content: center;
 }
-.con4{
- /* background: #ffd38266; */
- background: #fafafa;
+
+.con4 {
+  /* background: #ffd38266; */
+  background: #fafafa;
 }
-.con4 .text h1{
+
+.con4 .text h1 {
   font-size: 40px;
 
 }
-.con4 .emp{
+
+.con4 .emp {
   background: #f6c64193;
   position: absolute;
   top: 1420px;
@@ -364,7 +400,8 @@ body {
 
 /* Modal styling */
 .modal {
-  display: none; /* Hidden by default */
+  display: none;
+  /* Hidden by default */
   position: fixed;
   top: 0;
   left: 0;
@@ -406,13 +443,15 @@ body {
 /* Pop-up animation */
 
 @keyframes popUp {
-  from{
+  from {
     transform: scale(0.7);
 
   }
-  to{
+
+  to {
     transform: scale(1);
 
   }
 }
+
 /* ////////////////////////////////////////////////////////////////////// */
